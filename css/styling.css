@@ -1,0 +1,116 @@
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Yusei Magic', sans-serif;
+  font-size: 1.5em;
+  border: 0;
+}
+
+h1{
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  color: #66BFBF;
+  font-family: 'Sacramento', cursive;
+}
+
+h2{
+  font-family: 'Nerko One', cursive;
+  color: #66BFBF;
+  font-weight: normal;
+  font-size: 3.5rem;
+}
+
+h3{
+  font-family: 'Nerko One', cursive;
+  color: #11999E;
+  font-size: 2.75rem;
+}
+
+a{
+  color: #11999E;
+}
+
+.first-container{
+  background-color: #e4f9f5;
+  margin-top: 0;
+  position: relative;
+  line-height: 2;
+}
+
+.bottom-container,
+.middle-container{
+  background-color: #e4f9d9;
+  margin-top: 0;
+  position: relative;
+  line-height: 1;
+}
+
+
+.mountain{
+  position: relative;
+}
+
+.top-cloud{
+  position: relative;
+  top: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  right: 400px;
+}
+
+.bottom-cloud{
+  position: relative;
+  display: inline;
+  bottom: 400px;
+  left: 900px;
+}
+
+.pro{
+  text-decoration: underline;
+}
+
+.vaasu{
+  padding-top: 30px;
+  border-radius: 50%;
+  max-width: 25%;
+}
+
+h1:hover,
+.contact:hover,
+.pingpong:hover,
+.vaasu:hover,
+.hacker:hover,
+.bottom-cloud:hover,
+.top-cloud:hover,
+.mountain:hover{
+  transform: scale(1.2);
+}
+
+.skill-row{
+  width: 50%;
+  margin: auto;
+  text-align: left;
+  padding-bottom: 30px;
+}
+
+.hacker{
+  height: 200px;
+  width: 200px;
+  float: left;
+  margin-right: 30px;
+}
+
+.pingpong{
+  height: 200px;
+  width: 200px;
+  float: right;
+  margin-left: 30px;
+}
+.contact{
+  font-size: 4.2rem
+}
+
+.profile{
+  width: 75%;
+  margin: auto;
+}
