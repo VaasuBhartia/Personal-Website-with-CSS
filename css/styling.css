@@ -4,6 +4,7 @@ body{
   font-family: 'Yusei Magic', sans-serif;
   font-size: 1.5em;
   border: 0;
+  color: #40514E;
 }
 
 h1{
@@ -18,6 +19,7 @@ h2{
   color: #66BFBF;
   font-weight: normal;
   font-size: 3.5rem;
+  padding-bottom: 20px;
 }
 
 h3{
@@ -28,6 +30,35 @@ h3{
 
 a{
   color: #11999E;
+  font-family: 'Nerko One', cursive;
+  margin: 50px 20px;
+  text-decoration: none;
+}
+
+p{
+  line-height: 2;
+}
+
+hr{
+  border: dotted #EAF6F6 20px;
+  border-bottom: none;
+  width: 8%;
+  margin: 100px auto;
+}
+
+a:hover{
+  color: #1199FF;
+}
+
+h1:hover,
+.contact:hover,
+.pingpong:hover,
+.vaasu:hover,
+.hacker:hover,
+.bottom-cloud:hover,
+.top-cloud:hover,
+.mountain:hover{
+  transform: scale(1.2);
 }
 
 .first-container{
@@ -37,17 +68,33 @@ a{
   line-height: 2;
 }
 
-.bottom-container,
+
 .middle-container{
-  background-color: #e4f9d9;
-  margin-top: 0;
-  position: relative;
-  line-height: 1;
+  margin-top: 100px;
 }
 
+.bottom-container{
+  margin-top: 100px;
+  background-color: #e4f9f5;
+  padding: 50px 0 20px;
+}
+/*background-color: #e4f9d9;
+margin-top: 0;
+position: relative;
+line-height: 1;*/
+
+.intro{
+  width: 50%;
+  margin: auto;
+}
 
 .mountain{
   position: relative;
+}
+
+.con{
+  width: 50%;
+  margin: 60px auto 80px;
 }
 
 .top-cloud{
@@ -75,16 +122,7 @@ a{
   max-width: 25%;
 }
 
-h1:hover,
-.contact:hover,
-.pingpong:hover,
-.vaasu:hover,
-.hacker:hover,
-.bottom-cloud:hover,
-.top-cloud:hover,
-.mountain:hover{
-  transform: scale(1.2);
-}
+
 
 .skill-row{
   width: 50%;
@@ -113,4 +151,31 @@ h1:hover,
 .profile{
   width: 75%;
   margin: auto;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Nerko One', cursive;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #13ebcd;
+  background-image: -webkit-linear-gradient(top, #13ebcd, #328cdcd);
+  background-image: -moz-linear-gradient(top, #13ebcd, #328cdcd);
+  background-image: -ms-linear-gradient(top, #13ebcd, #328cdcd);
+  background-image: -o-linear-gradient(top, #13ebcd, #328cdcd);
+  background-image: linear-gradient(to bottom, #13ebcd, #328cdcd);
+  text-decoration: none;
 }
